@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container mx-auto p-4">
+    <h1 class="text-2xl font-bold mb-4">Quiz App</h1>
+    <div class="controls mb-4">
+      <label for="questionCount" class="mr-2">Number of Questions:</label>
+      <input type="number" id="questionCount" min="1" max="20" value="5" class="border border-gray-300 rounded p-1 w-16" />
+      <button id="startQuizBtn" class="btn-primary ml-2">Start Quiz</button>
+      <button id="submitBtn" class="btn-primary ml-2">Submit</button>
+      <button id="clearBtn" class="btn-primary ml-2">Clear</button>
+    </div>
+    <div id="quiz"></div>
+    <div id="score" class="mt-4 font-semibold"></div>
+    <div id="timer" class="mt-2 font-semibold"></div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
