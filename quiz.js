@@ -1,0 +1,753 @@
+const csvData = `Question,Answer
+We must abide ______ Our promise.,of
+Forests in India are abound ______ wild animals.,with
+He is absorbed ______ reading some report.,in
+Abstain ______ evil and do good.,from
+The judge acceded ______ my request.,to
+These terms are not acceptable ______ us.,to
+He was accused ______ theft.,of
+Try to be accurate ______ your predictions.,in
+I am not accustomed ______ taking coffee.,to
+Are you acquainted ______ her?,with
+The judge acquitted him ______ theft.,of
+Let us act ______ their advice.,on
+The school is adjacent ______ the Post Office.,to
+He was admitted ______ school last year.,to
+He had great affection ______ his mother.,for
+The school is affiliated ______ the Board of Higher Education.,to
+The old woman is afflicted ______ a severe infection.,by
+The rat is afraid ______ the cat.,of
+The king agreed ______ the minister.,with
+Do you agree ______ this proposal?,to
+She aims ______ becoming a writer.,at
+We alighted ______ the train.,from
+This flat has been allotted ______ me.,to
+The teacher was very angry ______ the student.,with
+I am very angry ______ his misbehavior.,about
+You will answer ______ your action.,for
+There was an argument ______ two neighbours.,between
+The moon does not shine ______ its own light.,by
+The city is teeming ______ tourists in December.,with
+When he was moving ______ his office, he was attacked.,from
+The snake moved ______ the grass.,through
+The shopping complex was ablaze ______ colourful lights.,with
+One has to account ______ one's actions.,for
+I had to adjust ______ hostel life.,to
+Are my conditions agreeable ______ one?,to
+The narrow road runs ______ the hills.,through
+The question is ______ much importance.,of
+Worshipping the son is prevalent ______ the tribes.,among
+There is no information ______ his income in the report.,about
+He saw a snake lying ______ his chair.,on
+The cat ran ______ the wall.,over
+All should abide ______ the law.,by
+The leader is accused ______ inciting hatred.,of
+He had a great admiration ______ the poet.,for
+The old man sat ______ the fire.,near
+She broke the mirror ______ many pieces.,into
+He is very anxious ______ the examination result.,about
+They apologized ______ you for their mistake.,to
+We appealed ______ her for help.,to
+He appealed ______ the judgment.,against
+The villagers applied ______ the bank for a loan.,to
+He was appointed ______ the post of vice-president.,to
+I do not approve ______ his extravagant lifestyle.,of
+The lawyer argued ______ the judge on the point.,with
+The students arrived ______ the venue in time.,at
+The king was ashamed ______ his unworthy sons.,of
+The manager is associated ______ this firm.,with
+We assure you ______ our help.,of
+Please attend ______ what I say.,to
+She has only one servant ______ attend her.,to
+He is an authority ______ literature.,on
+Let ______ ourselves ______ this opportunity.,us,to
+Are you aware ______ that case?,of
+The dog barked ______ the stranger.,at
+The convict begged ______ mercy.,for
+The assembly began ______ prayers.,with
+The next unit begins ______ page 50.,on
+Do you believe ______ ghosts?,in
+These books belong ______ Roger.,to
+They are bent ______ creating trouble.,on
+Beware ______ imitations.,of
+He was blamed ______ nothing.,for
+She was blessed ______ a son.,with
+Do not be blind ______ your faults.,to
+She boasts ______ her riches.,of
+The ship is bound ______ Japan.,for
+She is busy ______ her sons.,with
+He ate rice ______ curry.,with
+The cat jumped ______ the table.,on
+The temperature was ______ zero.,below
+A black cat was standing ______ the car.,beside
+He pushed the envelope ______ the door.,through
+The pond abounds ______ fish.,with
+I am accustomed ______ living a simple life.,to
+The general admires the soldiers ______ their courage.,for
+The boy slept ______ a tree.,under
+It has been raining ______ last night.,since
+His condition is deteriorating ______ yesterday.,from
+The fire was still blazing ______ the hill.,on
+When I came, my mother was standing ______ the gate.,at
+The soldiers drove ______ the gate.,through
+The judge absolved him ______ any blame.,of
+Are you acquainted ______ those people?,with
+She has adorned her room ______ colourful lights.,with
+The crow flew ______ her head.,over
+It is six o'clock ______ my watch.,by
+She has spent all her life ______ Chennai.,in
+They called on him ______ his office.,at
+She is capable ______ improvement.,of
+He is very careful ______ his clothes.,about
+Why shouldn't my mother care ______ me?,for
+There is no cause ______ anxiety.,for
+What is the cause ______ this trouble?,of
+Jaipur is celebrated ______ its old buildings.,for
+The beggar was charged ______ the theft.,with
+Please commit this number ______ to memory.,to
+We complained ______ him.,to
+Love is compared ______ a blind man.,to
+He competed ______ us for the scholarship.,with
+The passenger complained ______ ticket-checker.,to
+He complains ______ the station-master against a pain in the stomach every day.,to
+Do you have any complaint ______ him?,against
+I am sorry I cannot comply ______ such demands.,with
+He was condemned ______ death.,to
+He is confident ______ success.,of
+I was confined ______ bed with fever.,to
+She congratulated me ______ my success.,on
+This section consists ______ fifty students.,of
+They are content ______ their lot.,with
+We contributed fifty rupees ______ the fund.,to
+Be courteous ______ everyone.,to
+We always count ______ your help.,on
+This medicine will cure you ______ malaria.,of
+He lived in the apartment ______ us.,with
+The baby was about to fall ______ the table.,off
+I walked in front ______ the school gate.,of
+He is abstaining ______ drinks.,from
+The judge acquitted him ______ the murder charge.,of
+The captain had an advantage ______ the other players.,over
+The speaker spoke ______ morning till night.,from
+There is nothing new ______ her plan.,about
+Divided the bananas ______ the two children.,between
+Take the old bridge ______ that river.,over
+The purse is lying ______ the table.,on
+The secretary is adamant ______ changing the venue for the meeting.,about
+It is ______ her advantage if she studies with you.,to
+The cat ran ______ the road.,across
+There is no substance ______ what he says.,in
+The hospital has been named ______ Gandhiji.,after
+The rabbit suddenly ran ______ the hole.,into
+We deal ______ imported clothes.,in
+Deal fairly ______ everyone.,with
+You can depend ______ me.,on
+They were deprived ______ their freedom.,of
+Everybody is desirous ______ going abroad.,of
+He is devoid ______ any sense of responsibility.,of
+Many people die ______ cancer.,of
+Some people die ______ malnutrition.,of
+We differ ______ you on this point.,with
+Our plans are quite different ______ yours.,from
+He took a dislike ______ me.,to
+He devoted himself ______ studies.,to
+The master dispensed ______ the services of his servant.,with
+She was disgusted ______ eating fish.,by
+He disposed ______ his old car.,of
+My parents are doubtful ______ my success.,about
+Let us do our duty ______ our country.,for
+The teacher is displeased ______ me.,with
+You are too eager ______ her results.,for
+Tom is not eligible ______ this post.,for
+He is endowed ______ a strong will.,with
+I was enlisted ______ the army.,in
+The scheme ended ______ failure.,in
+They are engaged ______ rich gin.,with
+She entrusted the box ______ the servant.,to
+He proved equal ______ the task.,to
+The thief escaped ______ jail.,from
+We take strong exception ______ your remarks.,to
+We excluded him ______ our team.,from
+She had no excuse ______ remaining absent from work.,for
+The cricket team was exposed ______ criticism from all quarters.,to
+The servant is very faithful ______ his master.,to
+I am familiar ______ his tricks.,with
+Don't you have faith ______ me?,in
+Delhi is famous ______ its monuments.,for
+Silkworms feed ______ mulberry leaves.,on
+We fought ______ our independence.,for
+Please fill this tumbler ______ water.,with
+You are not fit ______ the post.,for
+He flew ______ a rage at her insulting words.,into
+Children are fond ______ sweets.,of
+Nobody is free ______ faults.,from
+They furnished the library ______ books.,with
+He has to feed the cow ______ grass, twice a day.,on
+He is adept ______ managing crowds.,at
+I am afraid ______ cockroaches.,of
+The brothers live ______ the same roof.,under
+The child rushed ______ my room yesterday.,into
+He was afraid ______ telling the truth.,of
+Do you have the evidence ______ him?,against
+He kept the bicycle ______ the wall.,against
+She moved herself ______ the library.,to
+The judge has acted ______ accordance with rules.,in
+The hospital is adjacent ______ my house.,to
+We are agitating ______ high taxes.,against
+He makes no pretensions ______ the wealth of his learning.,to
+The terrorists lay ______ wait for the minister.,for
+She chose this saree in preference ______ another.,to
+The purchasing power ______ money has depreciated.,of
+The front seats are reserved ______ special guests.,for
+He is giving French lessons ______ exchange for English lessons.,in
+The office staff were seated ______ the bottom of the long table.,at
+Many Italian words are derived ______ Latin.,from
+The army was altered to deal ______ the disorder in the city.,with
+Get ______ he faces.,past
+She cannot get ______ with him.,along
+Our new teacher is gifted ______ a good voice.,with
+Mohan is good ______ mathematics.,at
+I shall be grateful ______ you for your help.,to
+He is greedy ______ money.,for
+We must guard ______ ourselves ______ vices.,against
+The judge found her guilty ______ murder.,of
+I do not hanker ______ riches.,after
+The child is hard ______ hearing.,of
+We heard ______ your success.,of
+Always be honest ______ your business.,in
+Let us hope ______ the best.,for
+We are hopeful ______ our success.,of
+The natives are not hostile ______ outsiders.,to
+Peter is the only heir ______ his father's estate.,to
+Ignorance of law is no excuse ______ breaking it.,for
+She is ill ______ fever.,with
+The child is impatient ______ milk.,for
+The judge imposed a heavy fine ______ him.,on
+You are impressed ______ her speech.,by
+The teacher tried to impress ______ us the need of good habits.,on
+I am indebted ______ my friend for timely help.,to
+This plastic chair is inferior ______ that wooden chair.,to
+He appealed ______ the high court.,to
+He was annoyed ______ her for wasting his time.,with
+The students benefit ______ the new method of teaching.,from
+We are bound ______ the school regulations.,by
+We should care ______ the needy.,for
+He has competed ______ the great athletes in India.,with
+She has a craving ______ imported chocolates.,for
+She was deceived ______ believing that she was safe.,into
+His father died ______ divided a heart two.,in
+The land was divided ______ the farmers.,among
+The economic factors enter ______ the contract.,into
+He was then faced ______ an immediate problem.,with
+The magazine had a feature ______ lagore.,on
+The mother is fussing ______ the daughter.,over
+She is hanging ______ the central library waiting for her friend.,at
+The tour costs around ten thousand rupees inclusive ______ the flight.,of
+They insisted ______ our having dinner with them.,on
+College students joined ______ the march.,in
+We won the match ______ the protest against our competitors.,in
+The Mughal Garden opens ______ the public in February.,to
+The house is infested ______ pests.,with
+Smoking is injurious ______ health.,to
+I am inclined ______ give him leave.,to
+Do not indulge ______ gossip.,in
+We are indebted ______ you for this favour.,to
+Buddha inspired his followers ______ noble ideals.,with
+The teacher is inquiring ______ the case.,into
+We enquired ______ him about these matters.,of
+She insists ______ my staying in the village.,on
+Are you interested ______ this course?,in
+Hard work is indispensable ______ success.,to
+She never interfered ______ me in my work.,in
+I invested a lot of money ______ business.,in
+He introduced me ______ a friend.,to
+I am very intimate ______ my elder sister.,with
+Have you any influence ______ the principal?,over
+The teacher has no influence ______ his pupils.,over
+Neighbours are jealous ______ one another.,of
+They jeered ______ him.,at
+Just let me jot ______ your address.,down
+Our neighbours joined ______ the celebrations.,in
+He jumped ______ the first offer of a job.,at
+Never jump ______ hasty conclusions.,to
+My brother is junior ______ you by one year.,to
+We protested ______ the unjust treatment.,against
+He just scraped ______ his examination.,through
+He was unsatisfied ______ his results.,with
+The teacher is answerable ______ the principal.,to
+I applied ______ a job in the factory.,for
+Be wary ______ becoming too strict.,of
+The points ______ brief, are given below.,being
+I walked fast to catch up ______ her.,with
+New cars comply ______ emissions.,with
+He has always been critical ______ success.,of
+Already their first production had been decided ______ and failure.,both
+She could tell the difference ______ success.,between
+His attempt to surpass others was doomed ______ failure.,to
+There is an examination for entrance ______ college.,to
+She failed ______ her attempt the me.,at
+One can fight ______ corruption.,against
+Crowds gaped ______ the film stars.,at
+He had always hankered ______ owning a spacious house.,after
+I am indebted ______ you for your assistance.,to
+It is an instrument ______ measuring heat.,for
+Hard work is the key ______ success.,to
+Have you begin to key ______ the annual report?,on
+Be kind ______ the poor.,to
+Who is knocking ______ the door?,at
+The woman knocked ______ vase with her stick.,on
+I know ______ their holiday plans.,of
+I have some knowledge ______ English.,of
+Always keep ______ the left.,to
+I could not keep ______ the pretenses any longer.,up
+Try to keep the child's attention ______ the sweet.,on
+The social workers laboured ______ a just cause.,for
+He lacks ______ experience.,of
+The government is lax ______ implementing the new plan.,in
+The match ended in a draw.,-
+There is an opening ______ our school.,in
+She quarrelled ______ her friends.,with
+He sighed ______ satisfaction.,for
+We are used ______ dealing with such calamities.,to
+He has an appointment ______ the chairman.,with
+The principal does not approve ______ old methods.,of
+The bill ______ our dinner came to five hundred rupees.,for
+He brooded ______ his past actions.,over
+There was enough cause ______ rejoicing.,for
+The book consists ______ ten chapters.,of
+The public cried out ______ the high taxes.,against
+He failed to make a decision ______ this issue.,on
+The recent raid could make life difficult ______ criminals.,for
+He was due ______ promotion.,for
+He is envious ______ my success.,of
+They wish to remain faithful ______ their heritage.,to
+She sometimes fights ______ her sister.,with
+I get along well ______ my friends.,with
+You are no match ______ him.,for
+He met ______ many obstacles.,with
+Let us not meddle ______ the affairs of others.,in
+His motive ______ coming here is not known.,for
+The country mourns ______ its dead.,for
+The condition of the child moved her _______,to
+Peter is married ______ Sam's younger sister.,to
+I am in need ______ an honest advice.,of
+There is an acute need ______ fence around the garden.,for
+He is negligent ______ his work.,about
+She was negligent ______ her duties.,in
+They have narrowed ______ on two candidates after the interview.,down
+Good health is necessary ______ happiness.,for
+It is not necessary ______ you to call the doctor immediately.,for
+He is notorious ______ his nude behaviour.,for
+Always be obedient ______ your parents.,to
+I objected ______ his going out at night.,to
+She is obliged ______ us.,to
+She felt offended ______ his remarks.,by
+We are open ______ suggestions.,to
+The teacher has a very high opinion ______ her.,of
+Why should we be opposed ______ them?,to
+The boss was offended ______ the typist at his insolence.,by
+His corrupt practices will be held ______ him.,against
+Do not be negligent ______ your duties.,in
+Our shop is not insured ______ fire.,against
+The camels were laden ______ gold.,with
+We should not meddle ______ official matters.,in
+Our rivers are overloaded ______ toxic waste.,with
+My mother is recuperating ______ a serious illness.,from
+The guard was out ______ sight.,of
+She has a weakness ______ sweets.,for
+I felt ashamed ______ my ignorance.,of
+I do not want to argue ______ you.,with
+The light green colour blends well ______ the background.,with
+As she turned, she bumped ______ her friend.,into
+He changed his ______ his night clothes.,into
+Congratulations ______ your promotion.,on
+Regular exercise is the best cure ______ weight gain.,for
+He is dedicated ______ his work.,to
+He had to dip ______ his savings.,into
+He is duty ______ the school.,on
+He is estranged ______ his father.,from
+Let us partake ______ the birthday cake.,of
+I cannot part ______ my money.,with
+You must participate ______ school activities.,in
+The boy persists ______ lying.,in
+We pine ______ what is not.,for
+The principal presided ______ the meeting.,over
+We prevailed ______ them to go there.,on
+She fell a prey ______ cancer.,to
+His wife has passion ______ music.,for
+Have pity ______ the poor.,on
+He took pity ______ the poor.,on
+A book was presented ______ him.,to
+He was presented ______ a special award.,with
+This news is very painful ______ my father.,to
+The road is parallel ______ the railway track.,to
+She parted ______ her father.,from
+This custom is peculiar ______ this region.,to
+She is polite ______ her behaviour.,in
+Pulp fiction is popular ______ Indian readers.,with
+Let us pray to God ______ his safe return.,for
+Poverty with honest life is preferable ______ a dishonest life.,to
+He pretends ______ be calm in distress.,to
+We are proud ______ our school.,of
+A woollen blanket protects you ______ cold.,from
+He proved false ______ his friends.,to
+We must always provide ______ family.,for
+He was prohibited ______ entering the room.,from
+Let us proceed ______ our work.,with
+The students protested ______ the policy.,against
+I have fallen out ______ my new friends.,with
+They fought ______ properny.,over
+I glanced ______ your letters this morning.,at
+The school was abuzz ______ excitement.,with
+I do not indulge ______ eating ice cream.,in
+We interceded ______ him with the principal.,for
+The culprit still large.,-
+They mocked ______ our players.,at
+His article drew a parallel ______ India and China.,between
+There was a reduction ______ school fees.,in
+He never spoke ______ the team again.,to
+He has been associated ______ foreigners.,with
+She balanced fund ______ earning.,between
+He was blind ______ anger.,with
+He was burning ______ age.,with
+He checked in ______ the hotel ______ six o'clock.,at,at
+They are in contact ______ the police.,with
+There was a curse ______ his house.,on
+There is a great demand ______ fresh juice.,for
+She was rather disappointed ______ his reaction.,with
+He has qualified ______ one interview.,for
+Let us not quarrel ______ one another.,with
+Peter is quick ______ figures.,at
+She quoted many verses ______ the Gita.,from
+Please recommend him ______ the manager ______ the post.,to,for
+She reconciled ______ her brother.,with
+He has recovered ______ a serious illness.,from
+He is reduced ______ a skeleton.,to
+The case was referred ______ the minister.,to
+The leader was released ______ jail.,from
+I have great regard ______ all the seniors.,for
+The boy paid very ite regard ______ the teacher's advice.,to
+They rejoiced ______ heir success.,at
+How are you related ______ my aunt?,to
+The medicine relieved me ______ pain.,from
+You may rely ______ us.,on
+This drug is a sure remedy ______ typhoid.,for
+Please remember ______ give your parents my regards.,to
+He revenged himself ______ his enemies.,on
+Who is responsible ______ this delay?,for
+They have ..... respect our elders.,no
+They are respectful ______ their elders.,to
+The soldier was rewarded ______ the Vir Chakra for his bravery.,with
+He ruled ______ the hearts of the masses.,over
+They had to economize ______ the college expenses.,on
+I hate being excluded ______ family discussions.,from
+His face was familiar ______ me.,to
+She was fishing ______ compliments.,for
+Our decision went ______ the management policy.,against
+What makes people hungry ______ power?,for
+He is not inferior ______ his team mates.,to
+She is not interested ______ music.,in
+It is ______ the law to drink and drive.,against
+The project is shelved ______ the moment.,for
+He refused to partake ______ the feast.,in
+We should refrain ______ judging others.,from
+He had specialized ______ computer engineering.,in
+We are astonished ______ his generosity.,by
+The dog is barking ______ the stranger.,at
+The good result bodes well ______ the future.,for
+Hearing the news, he burst ______ ears.,out
+I am paid ______ cheque.,by
+Workers should have control ______ production.,over
+Our security is dependent ______ vigilance.,on
+This shrine is sacred ______ many sects.,to
+Always be satisfied ______ your lot.,with
+We saved her ______ drowning.,from
+His parents searched ______ him everywhere.,for
+The teacher sent ______ the monitor.,to
+The judge sentenced him ______ death.,to
+This plant is very sensitive ______ touch.,to
+They set out ______ a journey.,on
+He was shocked ______ the news of his son's death.,by
+A new ass is short ______ money towards the end of the month.,of
+She is sick ______ her poverty.,due
+The knife he has shown me was similar ______ this one.,to
+The younger boy is slow ______ speech.,in
+His brother is slow ______ anthmenc.,in
+We shall stand ______ our leaders.,with
+She stared ______ him.,at
+We shall stick ______ our post at all cost.,to
+They were shocked ______ the news.,by
+I have to submit ______ the orders to my colleague.,to
+He succeeded ______ of my senior.,over
+The old man succumbed ______ his injuries.,to
+This amount is not sufficient ______ the project.,for
+He felt Sure ______ success.,of
+Food was supplied ______ the hungry.,to
+The hungry were supplied ______ food.,with
+The soldiers would not surrender ______ the enemy.,to
+He was suspicious ______ all his employees.,of
+We sympathize ______ her in her troubles.,with
+We should have no sympathy ______ people.,for
+We listened to his discourse ______ moral values.,on
+Poor students are engaged ______ scholarship.,in
+There is no reason ______ eaving him behind.,for
+I am fascinated ______ the number of books in the library.,by
+All my books fit ______ my bag.,in
+There is a curfew; we may have to go ______ classes for a week.,away
+He was ignorant ______ her plans.,of
+The area was infected ______ mosquitoes.,with
+Do not interfere ______ the security procedures.,in
+A good citizen always acts ______ the law.,under
+They called me ______ name.,by
+He is very partial ______ his friends ______ request.,to,towards
+Admission forms are issued ______.,-
+He was suspected ______ irregular practice.,for
+I shall attend ______ you now.,to
+He begged ______ mercy.,for
+It boils down ______ the company making high profits.,to
+The classroom buzzed ______ queston.,with
+My cousins have a claim ______ our property.,to
+You need to be conversant ______ our customs.,with
+She has no taste ______ music.,for
+He took drinking ______ after his wife's death.,up
+Let the talk ______ the matter.,be
+They talked ______ the matter.,about
+We are very thankful ______ you for your help.,to
+He is tired ______ the game.,of
+We are tired ______ our excretions.,with
+You must be true ______ your word.,to
+Trust ______ God.,in
+She trembled ______ ear.,with
+We have used ______ all the milk for tea.,up
+Recycled waste is useful ______ many purposes.,for
+This book is not useful ______ me.,to
+The actress was vain ______ her pretty face.,of
+Do not be vexed ______ me, for coming late.,at
+I am vexed ______ his silence.,by
+He was a victim ______ his circumstances.,of
+Peter and Tom vie ______ each other for the elocution prize.,with
+All the servants waited ______ her.,for
+A deputation waited ______ the Minister.,on
+We warned her ______ the danger.,of
+I like to dance ______ western music.,to
+We are dependent ______ our parents.,on
+We are disgusted ______ the situation.,with
+She emigrated ______ Australia.,to
+He was exempt ______ manual work.,from
+Short skirts are out ______ fashion.,of
+He became fluent ______ English.,in
+I graduated ______ Delhi University.,from
+He was very impatient ______ slow learners.,with
+He has some influence ______ the police.,over
+The police made an investigation ______ his death.,into
+He is leaving ______ Liverpool today.,from
+I got nervous ______ crossing roads at night.,about
+She has a passion ______ Indian music.,for
+He will resign ______ the association.,from
+He seems to thrive ______ controversy.,on
+He should avail himself ______ the opportunity.,of
+Do you believe ______ God?,in
+She played piano ______ her childhood.,in
+I shall call ______ the President tomorrow.,to
+The actor's good performance won ______ his critics.,over
+The king grew weary ______ his courtiers.,of
+She is well-versed ______ household chores.,in
+He withdrew Tom ______ the contest.,from
+I was a witness ______ the bomb blast.,to
+We wonder ______ their skill.,at
+She is worthy ______ praise.,of
+The soldiers did not yield ______ the enemy.,to
+He yeamed ______ success all his life.,for
+The reformer is full of zeal ______ his mission.,for
+The young minister was zealous ______ improvement.,for
+Be zealous ______ a good cause.,for
+The drain is clogged ______ plastic bags.,with
+Your views do not correspond ______ reality.,to
+Last night I was ______ danger of being robbed.,in
+He was desperate ______ the prize.,for
+Our cat has a dislike ______ our neighbours dog.,for
+The invitation was enclosed ______ my letter.,with
+The teacher is experimenting ______ lots.,with
+He was in favour ______ introducing astrology in the school.,of
+I am fond ______ listening to music.,of
+He grieved ______ a terrible tragedy.,over
+There is a ban ______ smoking in public places.,on
+Onions are used as an ingredient ______ salads.,in
+Your opinion is relevant ______ the present situation.,to
+She did not listen ______ her father's advice.,to
+The birds were nibbling ______ the blue berries.,on
+He did not pay ______ his stay in the hotel.,for
+They have claimed responsibility ______ the explosions.,for
+Now America is less tolerant ______ violence.,of
+The doctor asked me ______ my health.,about
+I belong ______ a organisation called ASHA'.',to
+He borrowed some money ______ a friend.,from
+He is capable ______ doing better.,of
+The farmer came out ______ the forest.,from
+She counselled us ______ our future goals.,about
+It never dawned ______ me that someone was following me.,on
+Your argument is devoid ______ merit.,of
+He distanced himself ______ the Association.,from
+Do not indulge ______ gossip.,in
+He is an expert ______ dealing with school problems.,in
+We fear ______ the safety of our soldiers.,for
+Her way of life is fraught ______ danger.,with
+The small number grew ______ a formidable group.,into
+They were impressed ______ the performance.,by
+The merchant inquired ______ my daughter's health.,about
+She was irritated ______ his questions.,by
+You must not look down ______ the poor.,on
+I have an objection ______ your going out at night.,to
+He persisted ______ his inquiries.,in
+Let us revert now ______ the first point.,to
+The District Magistrate was unavailable ______ the comment.,for
+`;
+
+let previousCorrectQuestions = new Set();
+let startTime = 0;
+let endTime = 0;
+let timerInterval = null;
+
+const prepositions = [
+  "of", "with", "in", "from", "to", "on", "at", "by", "for", "about", "against", "between", "into", "through", "over", "under", "near", "among", "against", "along", "across", "behind", "during", "without", "within", "upon", "towards", "inside", "outside"
+];
+
+function parseCSV(csv) {
+  const lines = csv.trim().split("\n");
+  const headers = lines[0].split(",");
+  return lines.slice(1).map(line => {
+    const values = line.split(",");
+    let obj = {};
+    headers.forEach((header, index) => {
+      obj[header] = values[index];
+    });
+    return obj;
+  });
+}
+
+const questions = parseCSV(csvData);
+
+function getRandomQuestions(count) {
+  // Filter out previously correctly answered questions
+  const availableQuestions = questions.filter((q, index) => !previousCorrectQuestions.has(index));
+
+  // Diversify answers: limit max 2 questions with same answer
+  const answerCount = {};
+  const diversifiedQuestions = [];
+  for (let q of availableQuestions) {
+    const ans = q.Answer;
+    answerCount[ans] = (answerCount[ans] || 0) + 1;
+    if (answerCount[ans] <= 2) {
+      diversifiedQuestions.push(q);
+    }
+  }
+
+  // Shuffle diversified questions
+  const shuffled = diversifiedQuestions.sort(() => Math.random() - 0.5);
+
+  // Return up to count questions
+  return shuffled.slice(0, count);
+}
+
+function getRandomOptions(correctAnswer, count = 4) {
+  const options = new Set();
+  options.add(correctAnswer);
+  while (options.size < count) {
+    const randomPreposition = prepositions[Math.floor(Math.random() * prepositions.length)];
+    options.add(randomPreposition);
+  }
+  return Array.from(options).sort();
+}
+
+function renderQuestions(questions) {
+  const quizContainer = document.getElementById("quiz");
+  quizContainer.innerHTML = "";
+  questions.forEach((q, index) => {
+    const options = getRandomOptions(q.Answer);
+    const optionsHtml = options.map(option => `<option value="${option}">${option}</option>`).join("");
+    const div = document.createElement("div");
+    div.className = "question mb-4";
+    div.innerHTML = `
+      <label class="block mb-1 font-semibold">${q.Question}</label>
+      <select class="answer border border-gray-300 rounded p-2 w-full" data-answer="${q.Answer}">
+        <option value="" disabled selected>Select answer</option>
+        ${optionsHtml}
+      </select>
+      <span class="correct-answer ml-2 text-green-600 font-semibold hidden"></span>
+    `;
+    quizContainer.appendChild(div);
+  });
+  document.getElementById("score").textContent = "";
+  document.getElementById("timer").textContent = "Time: 0s";
+}
+
+function updateTimer() {
+  const elapsed = Math.floor((Date.now() - startTime) / 1000);
+  document.getElementById("timer").textContent = `Time: ${elapsed}s`;
+}
+
+function startTimer() {
+  startTime = Date.now();
+  timerInterval = setInterval(updateTimer, 1000);
+}
+
+function stopTimer() {
+  clearInterval(timerInterval);
+}
+
+function submitAnswers() {
+  stopTimer();
+  endTime = Date.now();
+  const selects = document.querySelectorAll(".answer");
+  let score = 0;
+  selects.forEach((select, index) => {
+    const userAnswer = select.value;
+    const correctAnswer = select.getAttribute("data-answer");
+    const correctAnswerSpan = select.nextElementSibling;
+    if (userAnswer === correctAnswer) {
+      score++;
+      select.classList.remove("border-red-500", "wrong");
+      select.classList.add("border-green-500", "correct");
+      previousCorrectQuestions.add(index);
+    } else {
+      select.classList.remove("border-green-500", "correct");
+      select.classList.add("border-red-500", "wrong");
+    }
+    correctAnswerSpan.textContent = `Correct: ${correctAnswer}`;
+    correctAnswerSpan.classList.remove("hidden");
+  });
+  const totalTime = (endTime - startTime) / 1000;
+  const avgTime = (totalTime / selects.length).toFixed(2);
+  document.getElementById("score").textContent = `Your Score: ${score} / ${selects.length} | Average Time: ${avgTime}s per question`;
+}
+
+function startQuiz() {
+  const countInput = document.getElementById("questionCount");
+  let count = parseInt(countInput.value);
+  if (isNaN(count) || count < 1) count = 1;
+  if (count > 20) count = 20;
+  const questionsToShow = getRandomQuestions(count);
+  renderQuestions(questionsToShow);
+  startTimer();
+  document.getElementById("score").textContent = "";
+}
+
+function clearQuiz() {
+  stopTimer();
+  previousCorrectQuestions.clear();
+  document.getElementById("score").textContent = "";
+  document.getElementById("timer").textContent = "Time: 0s";
+  document.getElementById("quiz").innerHTML = "";
+  document.getElementById("questionCount").value = "";
+}
+
+document.getElementById("startQuizBtn").addEventListener("click", startQuiz);
+document.getElementById("submitBtn").addEventListener("click", submitAnswers);
+
+const clearBtn = document.createElement("button");
+clearBtn.textContent = "Clear";
+clearBtn.className = "btn-primary mt-2";
+clearBtn.addEventListener("click", clearQuiz);
+
+const controlsDiv = document.querySelector(".controls");
+controlsDiv.appendChild(clearBtn);
