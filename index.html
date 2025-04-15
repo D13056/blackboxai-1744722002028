@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Preposition Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Preposition Quiz</h1>
+        <div class="controls mb-4">
+            <label for="questionCount" class="block mb-1 font-semibold">Number of Questions (max 20):</label>
+            <input type="number" id="questionCount" min="1" max="20" value="5" class="input-number" />
+            <button id="startQuizBtn" class="btn-primary mt-2">Start Quiz</button>
+        </div>
+        <div id="timer" class="timer mb-4">Time: 0s</div>
+        <div id="quiz"></div>
+        <button id="submitBtn" class="btn-primary mt-4">Submit Answers</button>
+        <div class="score mt-4" id="score"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
